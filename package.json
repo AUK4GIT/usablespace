@@ -1,0 +1,38 @@
+{
+  "name": "org.unasus.usablespace",
+  "version": "1.0.0",
+  "description": "Show available primary memory space in bytes.",
+  "cordova": {
+    "id": "org.unasus.usablespace",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrigcl/usablespace"
+  },
+  "keywords": [
+    "RAM",
+    "Free Space",
+    "Out of Memory",
+    "Memory Crash",
+    "Memory Warning",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "AUK <udaykiran4082@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrigcl/usablespace/issues"
+  },
+  "homepage": "https://github.com/gabrigcl/usablespace/"
+}
