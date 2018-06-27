@@ -1,18 +1,48 @@
 {
-  "name": "org.unasus.usablespace",
-  "version": "1.0.0",
-  "description": "Show available primary memory space in bytes.",
+  "_from": "git+https://github.com/AUK4GIT/usablespace.git",
+  "_id": "cordova.plugin.usablespace@1.0.0",
+  "_inBundle": false,
+  "_location": "/cordova.plugin.usablespace",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/AUK4GIT/usablespace",
+    "rawSpec": "https://github.com/AUK4GIT/usablespace",
+    "saveSpec": "git+https://github.com/AUK4GIT/usablespace.git",
+    "fetchSpec": "https://github.com/AUK4GIT/usablespace.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/AUK4GIT/usablespace.git#9ea31044e45ab7ef2c50468574929f8912b02e13",
+  "_spec": "https://github.com/AUK4GIT/usablespace",
+  "_where": "/Users/energytechglobal/Desktop/Uday's/NEST_PROJECTS/birdseye/branches/stage/electrickiwi/app",
+  "author": {
+    "name": "AUK",
+    "email": "udaykiran4082@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrigcl/usablespace/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
-    "id": "org.unasus.usablespace",
+    "id": "cordova.plugin.usablespace",
     "platforms": [
       "android",
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabrigcl/usablespace"
-  },
+  "deprecated": false,
+  "description": "Show available primary memory space in bytes.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/gabrigcl/usablespace/",
   "keywords": [
     "RAM",
     "Free Space",
@@ -23,16 +53,11 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=3.0.0"
-    }
-  ],
-  "author": "AUK <udaykiran4082@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gabrigcl/usablespace/issues"
+  "name": "cordova.plugin.usablespace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrigcl/usablespace.git"
   },
-  "homepage": "https://github.com/gabrigcl/usablespace/"
+  "version": "1.0.0"
 }
