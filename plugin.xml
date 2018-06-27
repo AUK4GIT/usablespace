@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova.plugin.usablespace" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova.plugin.usablespace" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
 	<engines>
 	    <engine name="cordova" version=">=3.3.0" />
 	</engines>
 
 	<name>UsableSpace</name>
 	<description>Show available primary memory space in bytes </description>
-
+	<license>Apache 2.0</license>
+	<keywords>cordova,usablespace, RAM space, memory warning, out of memory</keywords>
+	
 	<js-module name="UsableSpace" src="www/UsableSpace.js">
 		<clobbers target="cordova.plugins.UsableSpace" />
 	</js-module>
 
 	<platform name="android">
-		<config-file parent="/widget" target="res/xml/config.xml">
+		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="UsableSpace">
 				<param name="android-package" value="cordova.plugin.usablespace" />
 			</feature>
@@ -24,7 +26,7 @@
 	</platform>
 
 	<platform name="ios">
-		<config-file parent="/widget" target="config.xml">
+		<config-file parent="/*" target="config.xml">
 			<feature name="UsableSpace">
 				<param name="ios-package" value="CDVUsableSpace" />
 			</feature>
