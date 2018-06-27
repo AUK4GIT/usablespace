@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="org.unasus.usablespace" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova.plugin.usablespace" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<engines>
 	    <engine name="cordova" version=">=3.3.0" />
 	</engines>
@@ -8,13 +8,13 @@
 	<description>Show available primary memory space in bytes </description>
 
 	<js-module name="UsableSpace" src="www/UsableSpace.js">
-		<clobbers target="UsableSpace" />
+		<clobbers target="cordova.plugins.UsableSpace" />
 	</js-module>
 
 	<platform name="android">
 		<config-file parent="/widget" target="res/xml/config.xml">
 			<feature name="UsableSpace">
-				<param name="android-package" value="org.unasus.usablespace" />
+				<param name="android-package" value="cordova.plugin.usablespace" />
 			</feature>
 		</config-file>
 
